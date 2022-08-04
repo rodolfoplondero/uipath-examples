@@ -83,6 +83,6 @@
         <InArgument x:TypeArguments="s:String[]">[{"Olá", "Mundo"}]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[String.Format(&quot;{0}, {1}&quot;, parametros)]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[String.Format(&quot;{0}, {1}&quot;, parametros)]" />
   </Sequence>
 </Activity>
