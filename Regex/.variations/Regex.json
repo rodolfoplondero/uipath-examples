@@ -1,0 +1,12 @@
+﻿[
+	{
+		"in_text":"Pedido nro 0247899387\\n\\nResultado Criação do Pedido: \\n\\n Integração finalizada com sucesso. CODIGO: 0247899387\\n\\nResultado Consulta Bloqueio do Pedido: \\n\\n 0 - Consulta realizada com Sucesso.",
+		"in_pattern":"(?<=\\bCODIGO\\b:\\s)[0-9]+",
+		"in_result":"0247899387"
+	},
+	{
+		"in_text":"Pedido nro 0247899387\\n\\nResultado Criação do Pedido: \\n\\n Integração finalizada com sucesso. CODIGO: 0247899387\\n\\nResultado Consulta Bloqueio do Pedido: \\n\\n 0 - Consulta realizada com Sucesso.",
+		"in_pattern":"(?<=\\bCODIGO\\b:\\s)[0-9]+",
+		"in_result":"CODIGO: 0247899387"
+	}
+]
