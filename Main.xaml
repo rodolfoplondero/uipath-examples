@@ -18,6 +18,7 @@ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
             <x:String>System</x:String>
             <x:String>System.Collections</x:String>
             <x:String>System.Collections.Generic</x:String>
+            <x:String>System.Collections.ObjectModel</x:String>
             <x:String>System.Data</x:String>
             <x:String>System.Diagnostics</x:String>
             <x:String>System.Drawing</x:String>
@@ -35,9 +36,11 @@ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
         <sco:Collection x:TypeArguments="AssemblyReference">
             <AssemblyReference>System.Activities</AssemblyReference>
             <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-            <AssemblyReference>mscorlib</AssemblyReference>
+            <AssemblyReference>System.Private.CoreLib</AssemblyReference>
             <AssemblyReference>System.Data</AssemblyReference>
             <AssemblyReference>System</AssemblyReference>
+            <AssemblyReference>System.Linq</AssemblyReference>
+            <AssemblyReference>System.Data.Common</AssemblyReference>
             <AssemblyReference>System.Drawing</AssemblyReference>
             <AssemblyReference>System.Core</AssemblyReference>
             <AssemblyReference>System.Xml</AssemblyReference>
