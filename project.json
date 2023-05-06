@@ -1,18 +1,18 @@
 {
-  "name": "Regex",
-  "description": "Blank Process",
+  "name": "uipath-examples",
+  "description": "UiPath code examples",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.Mail.Activities": "[1.18.1]",
-    "UiPath.System.Activities": "[22.10.3]",
-    "UiPath.Testing.Activities": "[22.10.0]",
-    "UiPath.UIAutomation.Activities": "[22.10.3]"
+    "UiPath.Excel.Activities": "[2.20.1]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.10.3.0",
+  "studioVersion": "23.4.0.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -21,6 +21,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
@@ -41,22 +42,14 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "2467bd31-edbe-4e47-9222-5e7a9b24c147",
-        "dataVariationFilePath": ".variations\\Regex.json",
-        "testCaseType": "TestCase",
-        "fileName": "RegexTestCase.xaml"
-      }
-    ],
+    "fileInfoCollection": [],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "f43b9d3d-c8cd-4670-a452-9a149f9cae2b",
+      "uniqueId": "18779ba1-c0fc-4af7-81ca-21c1bc2f8643",
       "input": [],
       "output": []
     }
