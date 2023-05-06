@@ -1,20 +1,19 @@
 {
-  "name": "Exemplos",
+  "name": "Regex",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "ChromeACMESystem1LogInapp.Descriptors": "[1.0.2]",
-    "Microsoft.Activities.Extensions": "[2.0.6.9]",
-    "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.Testing.Activities": "[22.10.0]",
+    "UiPath.UIAutomation.Activities": "[22.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.2",
+  "studioVersion": "22.10.3.0",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -29,7 +28,8 @@
     "executionType": "Workflow",
     "readyForPiP": false,
     "startsInPiP": false,
-    "mustRestoreAllDependencies": true
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -41,14 +41,22 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2467bd31-edbe-4e47-9222-5e7a9b24c147",
+        "dataVariationFilePath": ".variations\\Regex.json",
+        "testCaseType": "TestCase",
+        "fileName": "RegexTestCase.xaml"
+      }
+    ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "37a357a3-8ea1-4047-8e8e-0dd612df67a4",
+      "uniqueId": "f43b9d3d-c8cd-4670-a452-9a149f9cae2b",
       "input": [],
       "output": []
     }
@@ -56,5 +64,5 @@
   "isTemplate": false,
   "templateProjectData": {},
   "publishData": {},
-  "targetFramework": "Legacy"
+  "targetFramework": "Windows"
 }
